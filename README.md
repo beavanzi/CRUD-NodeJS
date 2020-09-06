@@ -10,6 +10,7 @@ Este projeto contém uma API REST com NodeJs que realiza as funções de CRUD pa
    * [Descrição](#descrição)
    * [Features](#features)
    * [Pré-Requesitos](#pré-requisitos)
+   * [Funcionamento](#funcionamento)
    * [Testes](#testes)
    * [Autor](#autor)
 <!--te-->
@@ -30,7 +31,7 @@ A aplicação ainda conta com testes unitários e testes de integração.
 
 Instalar o Docker Desktop (https://www.docker.com/products/docker-desktop) ou Docker Toolbox, a depender do seu sistema operacional.
 
-Instalar o NodeJS (no computador ou rodar no container) para executar os testes.
+## Funcionamento
  
 Para criar o container a partir da imagem, execute:
 
@@ -54,7 +55,7 @@ Com o container parado, você pode removê-lo usando:
 
 ## Testes
 
-Os testes unitários e de integração foram escritos utilizando o Jest e o Supertest, e devem ser executados através do comando:
+Os testes unitários e de integração foram escritos utilizando o Jest e o Supertest. Eles são rodados quando o container é iniciado (é mostrado nos logs do container), mas podem ser executados quando desejar (em uma máquina com NodeJs instalado) com o comando:
 
     npm test
 
