@@ -29,6 +29,8 @@ A aplicação ainda conta com testes unitários e testes de integração.
 ## Pré-Requisitos
 
 Instalar o Docker Desktop (https://www.docker.com/products/docker-desktop) ou Docker Toolbox, a depender do seu sistema operacional.
+
+Instalar o NodeJS (no computador ou rodar no container) para rodar os testes.
  
 Para criar o container a partir da imagem, execute:
 
