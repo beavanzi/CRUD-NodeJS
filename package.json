@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Potential CRUD (server) - Processo Seletivo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --silent",
+    "dev": "nodemon ./src/upServer.js",
+    "start": "node ./src/upServer.js"
+  },
+  "keywords": [],
+  "author": "beavanzi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.5",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
+  }
+}
