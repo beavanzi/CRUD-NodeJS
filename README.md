@@ -16,7 +16,7 @@ Este projeto contém uma API REST com NodeJs que realiza as funções de CRUD pa
 
 
 ## Features
-Este potencial CRUD é capaz de realizar:
+Este projeto é capaz de realizar:
 - [x] Cadastro de desenvolvedor
 - [x] Listagem de desenvolvedores com paginação (4 por página)
 - [x] Listagem de desenvolvedor por id
